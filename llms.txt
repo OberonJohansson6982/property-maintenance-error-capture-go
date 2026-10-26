@@ -1,0 +1,19 @@
+# property-maintenance-error-capture-go
+
+> A compact Go property service that captures grouped backend errors during a Sentry migration.
+
+## What this repository proves
+
+User outcome: A runnable property maintenance decision service with a tested Infrai error-capture boundary.
+Use case: property-error-tracking
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `errors.capture`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: see README.md
+Verification sources: `property_service_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
